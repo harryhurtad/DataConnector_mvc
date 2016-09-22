@@ -4,17 +4,20 @@
  * and open the template in the editor.
  */
 
-package com.dataconnector.metadata;
+package com.dataconnector.commons.metadata;
+
+import com.dataconnectorcommons.sql.AliasExpression;
+import com.dataconnectorcommons.sql.Expression;
 
 /**
  *{Insert class description here}
  * @version $Revision: 1.1.1  (UTF-8)
  * @param <X>
- * @since build 26/05/2016  
+ * @since build 2/06/2016  
  * @author proveedor_hhurtado  email: proveedor_hhurtad@ath.com.co
  */
-public interface MetadataFieldDataConn<X extends Object> {
-    
-    X getTypeData();
-    
+public interface MetadataFieldDataConnector<X>   {
+
+    X getType();
+    String nameField();
 }

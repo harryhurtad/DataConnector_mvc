@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.dataconnector.metadata;
+package com.dataconnector.commons.metadata;
 
 /**
  *{Insert class description here}
