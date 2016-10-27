@@ -54,7 +54,7 @@ public class DataConnectorHelper {
         Object retorno = null;
         try {
             //Invoca y crea una instancia de la clase
-            Class cls = Class.forName(nombreClase);
+            Class cls = Class.forName(nombreClase,false,instance.getClass().getClassLoader());
             //Object obj = cls.newInstance();
 
             //invoca el metodo de la clase

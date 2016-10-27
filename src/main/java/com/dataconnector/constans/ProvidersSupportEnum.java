@@ -13,5 +13,5 @@ package com.dataconnector.constans;
  * @author proveedor_hhurtado email: proveedor_hhurtad@ath.com.co
  */
 public enum ProvidersSupportEnum {
-    GENERIC,ORACLE,SQLSERVER;
+    GENERIC,ORACLE,SQLSERVER,MYSQLSERVER;
 }
